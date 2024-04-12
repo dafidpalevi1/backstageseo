@@ -2,10 +2,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center; /* Menengahkan teks di dalam body */
   }
-
+  
   h1 {
-    text-align: center;
+    text-align: center; /* Menengahkan teks h1 */
+  }
+  
+  p {
+    text-align: center; /* Menengahkan teks paragraf */
   }
   
   /* Style untuk input dan tombol */
@@ -16,6 +21,7 @@ body {
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    text-align: center; /* Menengahkan teks di dalam input */
   }
   
   button {
@@ -28,6 +34,7 @@ body {
     cursor: pointer;
     width: 100%;
     box-sizing: border-box;
+    text-align: center; /* Menengahkan teks di dalam tombol */
   }
   
   button:hover {
@@ -42,11 +49,13 @@ body {
   table {
     width: 100%;
     border-collapse: collapse;
+    border: 2px solid black; /* Menambahkan border tebal pada tabel */
   }
   
   th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center; /* Menengahkan teks di dalam sel tabel */
+    border: 2px solid black; /* Menambahkan border tebal pada sel tabel */
   }
   
   th {
@@ -62,4 +71,4 @@ body {
       font-size: 12px;
     }
   }
-   
+  
